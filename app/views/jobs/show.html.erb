@@ -10,7 +10,9 @@
     <%= link_to 'Back', jobs_path %>
 </p>
 
-<h2>Comments</h2>
+<h2>Enviar um novo comentario</h2>
+
+<%= render "comments/form" %>
 
 <%= render @job.comments %>
 
